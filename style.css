@@ -1,9 +1,6 @@
 body {
     font-family: helvetica, sans-serif
 }
-div {
-    border:  1px solid #ddd;
-}
 
 .navbar {
     height: 70px;
@@ -21,7 +18,7 @@ div {
     vertical-align: middle;
 }
 
-.logo-container h2 {
+.logo-container h1 {
     font-size: 24px;
     display: inline-block;
     vertical-align: middle;
@@ -64,8 +61,8 @@ div {
 }
 
 .search-container .search-submit {
-    line-height: 34px;
     font-size: 24px;
+    line-height: 34px;
     border: 1px solid gray;
     width: 136px;
     margin-left: 16px;
@@ -77,7 +74,9 @@ div {
 }
 
 .post {
-    padding-left: 40px 80px;
+    padding: 40px 80px;
+    margin: 40px 0;
+    border: 2px solid #ddd;
 }
 
 a {
@@ -129,6 +128,6 @@ a {
 .post .post-photo-wrapper img {
     display: block;
     margin: auto;
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
 }
