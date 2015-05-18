@@ -43,7 +43,7 @@ div {
 .cta-button {
     font-weight: bold;
     color: white;
-    background-color: #2b78b4
+    background-color: #2b78b4;
 }
 
 .search-container {
@@ -69,4 +69,49 @@ div {
     border: 1px solid gray;
     width: 136px;
     margin-left: 16px;
+}
+
+.post-container {
+    margin: 30px auto;
+    width: 620px;
+}
+
+.post {
+    padding-left: 40px 80px;
+}
+
+a {
+    color: #085394;
+    text-decoration: none;
+}
+
+.post h2 {
+    font-size: 24px;
+    margin: .5em 0;
+}
+
+.post .post-date {
+    font-size: 14px;
+    text-align: right;
+    color: #ccc;
+    margin: 1em 0;
+}
+
+.post .post-body {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.25em;
+}
+
+.post .comments-links-wrapper {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.post .view-comments{
+    float: left;
+}
+
+.post .write-comments{
+    float: right;
 }
